@@ -1,13 +1,13 @@
 {
   "name": "persiantime",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "A simple utility to convert any date or time to Iran's local time with Persian date formatting.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YourGitHubUsername/PersianTime"
+    "url": "https://github.com/MiladJoodi/PersianTime"
   },
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "build": "tsc",
     "start": "npm run build && node dist/index.js"
@@ -15,6 +15,7 @@
   "author": "Joodi",
   "license": "MIT",
   "dependencies": {
+    "persiantime": "^1.0.4",
     "typescript": "^5.7.3"
   },
   "devDependencies": {
